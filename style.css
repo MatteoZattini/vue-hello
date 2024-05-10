@@ -1,0 +1,8 @@
+.imgContainer {
+    width: 100%;
+    height: 15rem;
+}
+
+img {
+    object-position: 10% 27%;
+}

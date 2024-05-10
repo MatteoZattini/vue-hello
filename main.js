@@ -4,7 +4,14 @@ createApp({
   data() {
     return {
       message: 'A belli',
-      text: 'ciao'
+      text: 'ciao',
+      immagine: './img/01.webp'
+    }
+  },
+
+  methods: {
+    cambia() {
+        console.log("spooderman")
     }
   }
 }).mount('#app')
