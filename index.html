@@ -17,8 +17,9 @@
                     <p>{{text}}</p>
                 </div>
                 <div class="col-6">
-                    <div class="imgContainer">
-                        <img id="img" @click="cambia" class="w-100 h-100 object-fit-cover border rounded" :src="immagine" alt="">
+                    <div @click="cambia" class="imgContainer">
+                        <img id="img1" class="w-100 h-100 object-fit-cover border rounded" :src="immagine" alt="">
+                        <img id="img2" class="w-100 h-100 object-fit-cover border rounded d-none" :src="immagine2" alt="">
                     </div>
                 </div>
             </div>
